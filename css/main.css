@@ -75,8 +75,13 @@ Body
 Main
 *************************/
 .clients {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px 10px 5px 10px;
+  margin-bottom: 20px;
+}
+
+.clients-background {
+  background-color: #2f2f2f;
+  color: #fff;
 }
 
 img {
@@ -135,25 +140,23 @@ COLORS
 
 /* site body */
 body {
-  background-color: #fff;
+  background-color: #2f2f2f;
   color: #000;
 }
 
 /* green header */
 header {
-  background: #000;
-  border-color: #000;
-}
-
-/* nav background on mobile */
-nav {
-  background: #6ab47b;
+  background: #2f2f2f;
+  border-color: #2f2f2f;
 }
 
 /* logo text */
 h1,
 h2 {
   color: #fff;
+}
+.clients {
+  background-color: #fff;
 }
 
 /* links */
@@ -171,4 +174,8 @@ nav a:visited {
 nav a.selected,
 nav a:hover {
   color: #fff;
+}
+
+footer {
+  background-color: #2f2f2f;
 }
