@@ -84,6 +84,10 @@ Main
   color: #fff;
 }
 
+.clients-logo {
+  max-width: 200px;
+}
+
 img {
   max-width: 100%;
 }
@@ -144,7 +148,6 @@ body {
   color: #000;
 }
 
-/* green header */
 header {
   background: #2f2f2f;
   border-color: #2f2f2f;
@@ -178,4 +181,10 @@ nav a:hover {
 
 footer {
   background-color: #2f2f2f;
+}
+
+/*************************
+Media Query  
+*************************/
+@media (min-width: 736px) {
 }
