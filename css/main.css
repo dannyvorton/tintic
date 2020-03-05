@@ -79,6 +79,10 @@ Main
   margin-bottom: 20px;
 }
 
+.client-content {
+  padding-bottom: 10px;
+}
+
 .clients-background {
   background-color: #2f2f2f;
   color: #fff;
