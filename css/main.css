@@ -187,4 +187,13 @@ footer {
 Media Query  
 *************************/
 @media (min-width: 736px) {
+  .client-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .client-content p {
+    margin-top: 0;
+    margin-left: 10px;
+  }
 }
