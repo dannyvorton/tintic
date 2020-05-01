@@ -17,6 +17,10 @@ body {
   margin: 35px;
   padding: 20px;
 }
+/* p {
+  margin: 0px;
+  padding: 0px;
+} */
 a {
   text-decoration: none;
 }
@@ -43,9 +47,9 @@ h1 {
 }
 
 h2 {
-  font-size: 0.75em;
-  margin: -5px 0 0;
-  font-weight: normal;
+  /* font-size: 0.75em; */
+  margin: 10px 0 0;
+  font-weight: bold;
 }
 
 h4 {
@@ -190,12 +194,21 @@ footer {
 Media Query  
 *************************/
 @media (min-width: 736px) {
-  .client-content {
+  .clients {
+    margin-bottom: 40px;
+  }
+  .client-content.video-left{
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
-
-  .client-content p {
+  .client-content.video-right{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  h2 {
+    margin-top: -5px;
+  }
+  .client-copy {
     margin-top: 0;
     margin-left: 10px;
   }
