@@ -194,6 +194,10 @@ footer {
 Media Query  
 *************************/
 @media (min-width: 736px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
   .clients {
     margin-bottom: 40px;
   }
