@@ -59,11 +59,11 @@ h1 {
   padding-left: 10px;
 }
 
-h2 {
-  /* font-size: 0.75em; */
+/* h2 {
+  font-size: 0.75em;
   margin: 10px 0 0;
   font-weight: bold;
-}
+} */
 
 h4 {
   font-size: 1em;
@@ -237,7 +237,48 @@ Media Query
   }
 }
 
-@media (min-width: 741px) {
+@media (min-width: 768px) {
+  body {
+    margin: 0 auto;
+  }
+  .clients {
+    margin-bottom: 40px;
+  }
+  .client-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .client-copy {
+    flex-grow: 1;
+  }
+  .video-container {
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 281px;
+  }
+  .logo-img {
+    display: inline-block;
+  }
+  /* .client-content.video-left {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .client-content.video-right {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  } */
+  /* h2 {
+    margin-top: -5px;
+  } */
+  .client-copy {
+    margin-top: 0;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 1024px) {
   body {
     max-width: 1440px;
     margin: 0 auto;
