@@ -28,9 +28,9 @@ a {
 /*************************
 HEADING
 *************************/
-header {
+/* header {
   text-align: center;
-}
+} */
 
 .hero-content {
   color: #fff;
@@ -42,13 +42,22 @@ header {
 }
 
 h1 {
+  align-items: center;
   color: #f68b1f;
+  display: flex;
+  flex: 1;
   font-family: 'Source Code Pro', sans-serif;
   font-size: 3.75rem;
   font-weight: normal;
-  line-height: 0.8em;
+  line-height: 1.2rem;
   margin: 0 0 15px 0;
-  padding: 15px;
+  max-width: 355px;
+  padding: 30px 0px 0px 5px;
+}
+.slogan {
+  color: #fff;
+  font-size: 1.25rem;
+  padding-left: 10px;
 }
 
 h2 {
