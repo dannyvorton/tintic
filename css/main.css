@@ -32,6 +32,10 @@ header {
   text-align: center;
 }
 
+.hero-content {
+  color: #fff;
+}
+
 #logo {
   text-align: left;
   margin: 0;
