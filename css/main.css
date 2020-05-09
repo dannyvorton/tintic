@@ -105,13 +105,18 @@ Main
   /* height: 0; */
   /* overflow: hidden; */
 }
-.logo-img > img {
-  max-width: 275px;
-  height: auto;
-}
 
 .logo-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   max-width: 275px;
+}
+
+.logo-img > img {
+  max-width: 275px;
+  padding: 15px 0px;
+  height: auto;
 }
 
 /* .video-container iframe {
