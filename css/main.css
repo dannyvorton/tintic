@@ -109,7 +109,7 @@ Main
   /* overflow: hidden; */
 }
 .logo-img > img {
-  max-width: 100%;
+  max-width: 275px;
   height: auto;
 }
 
@@ -219,7 +219,7 @@ Media Query
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 750px;
+    width: 500px;
     height: 350px;
   }
   .logo-img {
