@@ -28,24 +28,11 @@ a {
 /*************************
 HEADING
 *************************/
-/* header {
-  text-align: center;
-} */
-
-.hero-content {
-  color: #fff;
-}
-
-#logo {
-  text-align: left;
-  margin: 0;
-}
-
-h1 {
-  align-items: center;
-  color: #f68b1f;
+header {
   display: flex;
-  flex: 1;
+}
+h1 {
+  color: #f68b1f;
   font-family: 'Source Code Pro', sans-serif;
   font-size: 3.75rem;
   font-weight: normal;
@@ -54,10 +41,15 @@ h1 {
   max-width: 355px;
   padding: 30px 0px 0px 5px;
 }
+
 .slogan {
   color: #fff;
   font-size: 1.25rem;
   padding-left: 10px;
+}
+
+.contact-us {
+  color: #fff;
 }
 
 h2 {
