@@ -112,6 +112,10 @@ Main
   line-height: 1.6em;
 }
 
+.client-link {
+  font-weight: bold;
+}
+
 .video-container {
   display: flex;
   align-items: center;
