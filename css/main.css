@@ -3,6 +3,13 @@
 /*************************
 GLOBAL STYLES
 *************************/
+:root {
+  --primary-color: #f68b1f;
+  --secondary-color: ;
+  --body-background: #2f2f2f;
+  --client-background: #808080;
+  --light-gray: #ccc;
+}
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -40,7 +47,7 @@ header {
 }
 
 h1 {
-  color: #f68b1f;
+  color: var(--primary-color);
   font-size: 3.5rem;
   font-weight: normal;
   line-height: 1.2rem;
@@ -77,22 +84,6 @@ h4 {
 }
 
 /*************************
-NAVIGATION
-*************************/
-
-/*************************
-NAVIGATION MENU
-*************************/
-
-/*************************
-Body
-*************************/
-
-.heading {
-  color: #1a2b8f;
-}
-
-/*************************
 Main
 *************************/
 .clients {
@@ -105,7 +96,7 @@ Main
 }
 
 .clients-background {
-  background-color: #2f2f2f;
+  background-color: var(--body-background);
   color: #fff;
 }
 .client-copy {
@@ -121,7 +112,7 @@ Main
   align-items: center;
   justify-content: center;
   border-radius: 18px;
-  background: #808080;
+  background: var(--client-background);
 
   /* position: relative; */
   /* padding-bottom: 56.25%;
@@ -169,7 +160,7 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #ccc;
+  color: var(--light-gray);
 }
 
 .social-icon {
@@ -189,13 +180,13 @@ COLORS
 
 /* site body */
 body {
-  background-color: #2f2f2f;
+  background-color: var(--body-background);
   color: #000;
 }
 
 header {
-  background: #2f2f2f;
-  border-color: #2f2f2f;
+  background: var(--body-background);
+  border-color: var(--body-background);
 }
 
 /* logo text */
@@ -206,7 +197,7 @@ header {
 
 /* links */
 a {
-  color: #6ab47b;
+  color: var(--secondary-color);
 }
 
 /* nav link */
@@ -222,7 +213,7 @@ nav a:hover {
 }
 
 footer {
-  background-color: #2f2f2f;
+  background-color: var(--body-background);
 }
 
 /*************************
