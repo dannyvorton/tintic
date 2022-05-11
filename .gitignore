@@ -2,3 +2,5 @@ node_modules
 .vs
 .idea/
 .vscode
+/nbproject/private/
+.DS_Store
